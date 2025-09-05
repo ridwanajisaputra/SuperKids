@@ -4,15 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Superkids</title>
+    <style>
+        h1 {
+        font-size: 87px;
+        color: white;
+        }
+        h2 {
+            font-size: 48px;
+        }
+        h3 {
+            font-size: 32px;
+        }
+        h4 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 16px;
+            color: white;
+        }
+        .navbar {
+            background-color: blueviolet;
+        }
+        .navbar .navbar-content {
+            color: white;
+        }
+        #header {
+            background-color: blueviolet;
+        }
+        #header .header{
+            background-color: blueviolet;
+        }
+        #header .header p {
+            color: white;
+
+        }
+        #content-1 .feature{
+            color: black;
+        }
+        #content-2 .header p {
+            color: black;
+        }
+        #content-2 .header .content p {
+            color: 878799;
+        }
+    </style>
 </head>
 <body>
     <header>
         <!--nav-->
         <nav>
-            <div>
+            <div class="navbar">
                 <a href="#"><img src="asset/images/logo.png"></a>
-                <div>
-                    <ul>
+                <div class="navbar-content">
+                    <ul">   
                         <li><a href="#">Aboute</a></li>
                         <li><a href="#">Programs ></a></li>
                         <li><a href="#">Admission</a></li>
@@ -25,12 +69,12 @@
             </div>
         </nav>
         <!--section header-->
-        <div>
+        <div id="header">
             <div>
-                <div>
+                <div class="header">
                     <span>Welcome to Superkids</span>
                     <div>
-                        <h2>Be a Super Parents for your superkids</h2>
+                        <h1>Be a Super Parents for your superkids</h1>
                         <p>Amet minim molit non deserunt ullamco est sit aliqua dolor do Mamet sint. Velit officia consequent dus enim velt molit. Exercitation veniam </p>          
                     </div>
                 </div>
@@ -43,9 +87,9 @@
         <!--section main-->
         <section>
             <div>
-                <div>
-                    <h4>What we offer</h4>
-                    <ul>
+                <div id="content-1">
+                    <h3>What we offer</h3>
+                    <ul class="feature">
                         <li><a href="#"><img src="asset/images/ic-music.png">Music</a></li>
                         <li><a href="#"><img src="asset/images/ic-cap.png">Fashion</a></li>
                         <li><a href="#"><img src="asset/images/ic-sports.png">Sport</a></li>
@@ -61,54 +105,54 @@
         </section>
         <!--Section benefits-->
         <section>
-            <div>
+            <div id="content-2">
                 <div>
                     <span>Benefits</span>
-                    <div>
-                        <h3>Why Choose us for your happier kids</h3>
+                    <div class="header">
+                        <h2>Why Choose us for your happier kids</h2>
                         <p>Look into the eyes of a young child and she the sparkie and wonder. Develop these passions and watch the adult bloom into someone special. At Little dino Center, we work every day to build the foundations for amazing futures.</p>
                     </div>
                 </div>
-                <div>
+                <div class="content">
                     <div>
                         <img src="asset/images/ic-music.png" alt="#">
                         <div>
-                            <h5>Experience Teacher</h5>
+                            <h4>Experience Teacher</h4>
                             <p>Look into the eyes of a young child and see the sparkie.</p>
                         </div>
                     </div>
                     <div>
                         <img src="asset/images/ic-backpack.png" alt="#">
                         <div>
-                            <h5>Learning and skills</h5>
+                            <h4>Learning and skills</h4>
                             <p>Quality learning outcomes and skills development.</p>
                         </div>
                     </div>
                     <div>
                         <img src="asset/images/ic-emergencies.png" alt="#">
                         <div>
-                            <h5>Emergencies Context</h5>
+                            <h4>Emergencies Context</h4>
                             <p>Improved learning and protection for children in.</p>
                         </div>
                     </div>
                     <div>
                         <img src="asset/images/ic-physical.png" alt="#">
                         <div>
-                            <h5>Phisical aspect</h5>
+                            <h4>Phisical aspect</h4>
                             <p>Achild goes through various physical development.</p>
                         </div>
                     </div>
                     <div>
                         <img src="asset/images/ic-mental.png" alt="#">
                         <div>
-                            <h5>Mental aspect</h5>
+                            <h4>Mental aspect</h4>
                             <p>School is the foremost fountain of knowledge</p>
                         </div>
                     </div>
                     <div>
                         <img src="asset/images/ic-social.png" alt="#">
                         <div>
-                            <h5>Social aspect</h5>
+                            <h4>Social aspect</h4>
                             <p>School is the first avenue of socialising for a child</p>
                         </div>
                     </div>
@@ -117,7 +161,7 @@
         </section>
         <!--Section benefits 2-->
         <section>
-            <div>
+            <div class="benefits">
                 <img src="asset/images/img-about.png" alt="#">
                 <div>
                     <div>
@@ -150,7 +194,7 @@
                     <div>
                         <span>Knowledge Base</span>
                         <div>
-                            <h3>Why Early Education Matters</h3>
+                            <h2 class="header">Why Early Education Matters</h2>
                             <p>of developing these in young children is a combination of free and structured play, in beautiful and engaging preschool learning environments, and a program that constantly develops their minds across multiple areas. We know that children develop at different rates across different areas.
                             </p>
                         </div>
@@ -251,13 +295,13 @@
         </section>
         <!--Section Testimonial-->
         <section>
-            <div>
+            <div id="testimonial">
                 <div>
                     <span>Testimonial</span>
                     <h2>What's Parent Say About Us</h2>
                 </div>
                 <div>
-                    <div>
+                    <div class="content-testi-1">
                         <p>Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus blandit pretium sed non enim.</p>
                         <div>
                             <img src="asset/images/avatar 1.png" alt="#">
@@ -267,7 +311,7 @@
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="content-testi-2">
                         <p>Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus blandit pretium sed non enim.</p>
                         <div>
                             <img src="asset/images/avatar 1.png" alt="#">
@@ -277,7 +321,7 @@
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="content-testi-3">
                         <p>Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus blandit pretium sed non enim.</p>
                         <div>
                             <img src="asset/images/avatar 1.png" alt="#">
