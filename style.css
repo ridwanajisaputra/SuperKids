@@ -1,0 +1,214 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 87px;
+    color: white;
+}
+h2 {
+    font-size: 48px;
+}
+h3 {
+    font-size: 32px;
+    color: black;
+}
+h4 {
+    font-size: 24px;
+}
+p {
+    font-size: 16px;
+    color: white;
+}
+#navbar{
+    background-color: blueviolet;
+}
+#navbar .container-navbar {
+    font-size: 18px;
+    color: black;
+    list-style-type: none;
+}
+#navbar .container-navbar button {
+    font-size: 22px;
+}
+#header span {
+    font-size: 18px
+}
+#header .container-heading span {
+    font-size: 18px;
+    color: white;
+}
+#header button {
+    font-size: 18px;
+    background-color: #B2D93A;
+}
+#hero .hero-container ul li {
+    font-size: 24px;  
+}
+#benefits span {
+    color: #6ED2EF;
+}
+#benefits .text-1 {
+    color: #6ED2EF;
+}
+#benefits .text-2 {
+    color: #222F5E;
+}
+#benefits p{
+    color: #878799;
+}
+#about span {
+    color: #FF7D56;
+}
+#about p {
+    color: #878799;
+}
+#about .text-1 {
+    color: #222F5E;
+}
+#about .text-2 {
+    color: #FF7D56;
+}
+#about button {
+    color: white;
+    background-color: #FF7D56;
+}
+#banner div ul li {
+    color: white;
+    font-size: 24;
+    background-color: #222F5E;
+}
+#know .know-title span {
+    color: #6100C1;
+}
+#know .know-title .text-1 {
+    color: black;
+}
+#know .know-title .text-2 {
+    color: #6100C1;
+}
+#know button {
+    background-color: #6100C1;
+    color: white;
+}
+#card .card-title span {
+    color: #6ED2EF;
+    font-size: 18px;
+}
+#card .card-title .text-1 {
+    color: #222F5E;
+}
+#card .card-title .text-2 {
+    color: #6ED2EF;
+}
+#card .card-title ul li a {
+    color: #878799;
+    background-color: #6ED2EF;
+}
+#card .card-product .text-1 {
+    color: #FF7D56;
+}
+#card .card-product .text-2 {
+    color: #B2D93A;
+}
+#card .card-product .text-3 {
+    color: #6100C1;
+}
+#card .card-product .text-4 {
+    color: #6ED2EF;
+}
+#about span {
+    font-size: 18px;
+    color: #FF7D56;
+}
+#about .text-1 {
+    color: #222F5E;
+}
+#about .text-2 {
+    color: #FF7D56;
+}
+#about .container-about p {
+    font-size: 20px;
+    color: white;
+    
+}
+#about .container-about span {
+    font-size: 16px;
+    color: #878799;
+}
+#about .container-about .section-1 p {
+    background-color:#FF7D56
+}
+#about .container-about .section-2 p {
+    background-color: #6ED2EF
+}
+#about .container-about .section-3 p {
+    background-color:#FDCF3F
+}
+#contact button {
+    color: white;
+    background-color: #FF7D56;
+}
+#article .article-title span {
+    color: #6100C1;
+    font-size: 18px;
+}
+#article .article-title .text-1 {
+    color: #222F5E;
+}
+#article .article-title .text-2 {
+    color: #6100C1;
+}
+#article .container-article h4 {
+    color: #222F5E;
+}
+#article .container-article p {
+    color: #878799;
+}
+#article .container-article .content-1 span {
+    color: white;
+    background-color: #FF7D56;
+}
+#article .container-article .content-2 span {
+    color: white;
+    background-color: #FDCF3F;
+}
+#article .container-article .content-3 span {
+    color: white;
+    background-color: #6ED2EF;
+}
+#article .container-article .content-4 span {
+    color: white;
+    background-color: #B2D93A;
+}
+#article .container-article .content-5 span {
+    color: white;
+    background-color: #6100C1;
+}
+#article .container-article .content-6 span {
+    color: white;
+    background-color: #6ED2EF;
+}
+#article .container-article .content-7 span {
+    color: white;
+    background-color: #4F94FB;
+}
+#article .container-article .content-8 span {
+    color: white;
+    background-color: #4F94FB;
+}
+#article button {
+    color: #6ED2EF;
+}
+footer p {
+    color: #878799;
+    font-size: 14px;
+}
+footer h4 {
+    color: #222F5E;
+    font-size: 22px;
+}
+footer ul li a {
+    color: #878799;
+    font-size: 14px;
+}

@@ -4,61 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Superkids</title>
-    <style>
-        h1 {
-        font-size: 87px;
-        color: white;
-        }
-        h2 {
-            font-size: 48px;
-        }
-        h3 {
-            font-size: 32px;
-        }
-        h4 {
-            font-size: 24px;
-        }
-        p {
-            font-size: 16px;
-            color: white;
-        }
-        .navbar {
-            background-color: blueviolet;
-        }
-        .navbar .navbar-content {
-            color: white;
-        }
-        #header {
-            background-color: blueviolet;
-        }
-        #header .header{
-            background-color: blueviolet;
-        }
-        #header .header p {
-            color: white;
-
-        }
-        #content-1 .feature{
-            color: black;
-        }
-        #content-2 .header p {
-            color: black;
-        }
-        #content-2 .header .content p {
-            color: 878799;
-        }
+    <link rel="stylesheet" href="style.css">
     </style>
 </head>
 <body>
-    <header>
+    <header  id="navbar">
         <!--nav-->
         <nav>
-            <div class="navbar">
+            <div>
                 <a href="#"><img src="asset/images/logo.png"></a>
-                <div class="navbar-content">
-                    <ul">   
-                        <li><a href="#">Aboute</a></li>
-                        <li><a href="#">Programs ></a></li>
+                <div class="container-navbar">
+                    <ul>   
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Programs</a></li>
                         <li><a href="#">Admission</a></li>
                         <li><a href="#">Parent</a></li>
                         <li><a href="#">Location</a></li>
@@ -71,7 +29,7 @@
         <!--section header-->
         <div id="header">
             <div>
-                <div class="header">
+                <div class="container-heading">
                     <span>Welcome to Superkids</span>
                     <div>
                         <h1>Be a Super Parents for your superkids</h1>
@@ -85,35 +43,36 @@
     </header>
     <main> 
         <!--section main-->
-        <section>
+        <section id="hero">
             <div>
-                <div id="content-1">
+                <div class="hero-container">
                     <h3>What we offer</h3>
-                    <ul class="feature">
-                        <li><a href="#"><img src="asset/images/ic-music.png">Music</a></li>
-                        <li><a href="#"><img src="asset/images/ic-cap.png">Fashion</a></li>
-                        <li><a href="#"><img src="asset/images/ic-sports.png">Sport</a></li>
-                        <li><a href="#"><img src="asset/images/ic-craft.png">Craft</a></li>
-                        <li><a href="#"><img src="asset/images/ic-health.png">health</a></li>
-                        <li><a href="#"><img src="asset/images/ic-food.png">Food</a></li>
-                        <li><a href="#"><img src="asset/images/ic-education.png">Education</a></li>
-                        <li><a href="#"><img src="asset/images/ic-toys.png">Toys</a></li>
+                    <ul>
+                        <li><a href="#"><img src="asset/images/ic-music.png"></a>Music</li>
+                        <li><a href="#"><img src="asset/images/ic-cap.png"></a>Fashion</li>
+                        <li><a href="#"><img src="asset/images/ic-sports.png"></a>Sport</li>
+                        <li><a href="#"><img src="asset/images/ic-craft.png"></a>Craft</li>
+                        <li><a href="#"><img src="asset/images/ic-health.png"></a>health</li>
+                        <li><a href="#"><img src="asset/images/ic-food.png"></a>Food</li>
+                        <li><a href="#"><img src="asset/images/ic-education.png"></a>Education</li>
+                        <li><a href="#"><img src="asset/images/ic-toys.png"></a>Toys</li>
                     </ul>
                 </div>
                 <a href="#"><img src="asset/images/ic-dropdown.png" alt="drop-down"></a>
             </div>
         </section>
         <!--Section benefits-->
-        <section>
-            <div id="content-2">
+        <section id="benefits">
+            <div>
                 <div>
                     <span>Benefits</span>
-                    <div class="header">
-                        <h2>Why Choose us for your happier kids</h2>
+                    <div>
+                        <h2 class="text-1">Why Choose us</h2>
+                        <h2 class="text-2">your happier kids</h2>
                         <p>Look into the eyes of a young child and she the sparkie and wonder. Develop these passions and watch the adult bloom into someone special. At Little dino Center, we work every day to build the foundations for amazing futures.</p>
                     </div>
                 </div>
-                <div class="content">
+                <div class="container-benefits">
                     <div>
                         <img src="asset/images/ic-music.png" alt="#">
                         <div>
@@ -160,14 +119,15 @@
             </div>  
         </section>
         <!--Section benefits 2-->
-        <section>
-            <div class="benefits">
+        <section id="about">
+            <div>
                 <img src="asset/images/img-about.png" alt="#">
                 <div>
                     <div>
                         <span>About Us</span>
                         <div>
-                            <h2>Hey ! Here is A little about Our Storries</h2>
+                            <h2 class="text-1">Hey ! Here is A little about</h2>
+                            <h2 class="text-2">Our Storries</h2>
                             <p>We are excited and pleased to introduce you to the wonderful, passionate and committed educators who are working at Skole Learning Centre. Please take a moment to meet “Our Family!” We invited each of them to describe why they love working with children
                             </p>
                         </div>
@@ -176,25 +136,25 @@
                 </div>
             </div>
         </section>
-        <!--Section Benner Counter-->
-        <section>
+        <!--Section Banner Counter-->
+        <section id="banner">
             <div>
                 <ul>
-                    <li><a href="#"><img src="asset/images/15.png">Total Groups</a></li>
-                    <li><a href="#"><img src="asset/images/32.jpg">Qualified Teachers</a></li>
-                    <li><a href="#"><img src="asset/images/10.png">Years of Experience</a></li>
-                    <li><a href="#"><img src="asset/images/15k.png">Students Enrolled</a></li>
+                    <li><a href="#"><img src="asset/images/15.png"></a>Total Groups</li>
+                    <li><a href="#"><img src="asset/images/32.jpg"></a>Qualified Teachers</li>
+                    <li><a href="#"><img src="asset/images/10.png"></a>Years of Experience</li>
+                    <li><a href="#"><img src="asset/images/15k.png"></a>Students Enrolled</li>
                 </ul>
             </div>
         </section>
         <!--Section Knowledge-->
-        <section>
+        <section id="know">
             <div>
                 <div>
-                    <div>
+                    <div class="know-title">
                         <span>Knowledge Base</span>
                         <div>
-                            <h2 class="header">Why Early Education Matters</h2>
+                            <h2 class="text-1">Why</h2> <h2 class="text-2">Early</h2> <h2 class="text2">Education</h2> <h2 class="text1">Matters</h2>
                             <p>of developing these in young children is a combination of free and structured play, in beautiful and engaging preschool learning environments, and a program that constantly develops their minds across multiple areas. We know that children develop at different rates across different areas.
                             </p>
                         </div>
@@ -205,12 +165,12 @@
             </div>
         </section>
         <!--Section Team Member-->
-        <section>
+        <section id="card">
             <div>
-                <div>
+                <div class="card-title">
                     <div>
                         <span>Our Team Member</span>
-                        <h3>Meet with Our Best Trainer</h3>
+                        <h3 class="text-1">Meet with</h3><h3 class="text-2">Our Best Trainer</h3>
                     </div>
                     <ul>
                         <li><a href="#">All</a></li>
@@ -219,115 +179,108 @@
                         <li><a href="#">Art and Music</a></li>
                     </ul>
                 </div>
-                <div>
+                <div class="card-product">
                     <div>
-                        <img src="asset/images/avatar 1.png" alt="#">
+                        <img src="asset/images/avatar.png" alt="#">
                         <div>
                             <h5>Darrell Steward</h5>
-                            <p>Literacy Teacher</p>
+                            <p class="text-1">Literacy Teacher</p>
                         </div>
                     </div>
                     <div>
-                        <img src="asset/images/avatar 1.png" alt="#">
+                        <img src="asset/images/avatar.png" alt="#">
                         <div>
                             <h5>Jerome Bell</h5>
-                            <p>Art and Music Teacher</p>
+                            <p class="text-2">Art and Music Teacher</p>
                         </div>
                     </div>
                     <div>
-                        <img src="asset/images/avatar 1.png" alt="#">
+                        <img src="asset/images/avatar.png" alt="#">
                         <div>
                             <h5>Leslie Alexander</h5>
-                            <p>Art and Music Teacher</p>
+                            <p class="text-2">Art and Music Teacher</p>
                         </div>
                     </div>
                     <div>
-                        <img src="asset/images/avatar 1.png" alt="#">
+                        <img src="asset/images/avatar.png" alt="#">
                         <div>
                             <h5>Annette Black</h5>
-                            <p>Active Learning Teacher</p>
+                            <p class="text-3">Active Learning Teacher</p>
                         </div>
                     </div>
                     <div>
-                        <img src="asset/images/avatar 1.png" alt="#">
+                        <img src="asset/images/avatar.png" alt="#">
                         <div>
                             <h5>Cameron Williamson</h5>
-                            <p>Literacy Teacher</p>
+                            <p class="text-1">Literacy Teacher</p>
                         </div>
                     </div>
                     <div>
-                        <img src="asset/imagesavatar 1.png" alt="#">
+                        <img src="asset/images/avatar.png" alt="#">
                         <div>
                             <h5>Kathryn Murphy</h5>
-                            <p>Literacy Teacher</p>
+                            <p class="text-1">Literacy Teacher</p>
                         </div>
                     </div>
                     <div>
-                        <img src="asset/images/avatar 1.png" alt="#">
+                        <img src="asset/images/avatar.png" alt="#">
                         <div>
                             <h5>Guy Hawkins</h5>
-                            <p>Preschool Teach</p>
+                            <p class="text-4">Preschool Teach</p>
                         </div>
                     </div>
                     <div>
-                        <img src="asset/images/avatar 1.png" alt="#">
-                        <div>
-                            <h5>Guy Hawkins</h5>
-                            <p>Preschool Teach</p>
-                        </div>
-                    </div>
-                    <div>
-                        <img src="asset/images/avatar 1.png" alt="#">
+                        <img src="asset/images/avatar.png" alt="#">
                         <div>
                             <h5>Jane Cooper</h5>
-                            <p>Active Learning Teacher</p>
+                            <p class="text-3">Active Learning Teacher</p>
                         </div>
                     </div>
                     <div>
-                        <img src="asset/images/avatar 1.png" alt="#">
+                        <img src="asset/images/avatar.png" alt="#">
                         <div>
                             <h5>Esther Howard</h5>
-                            <p>Active Learning Teacher</p>
+                            <p class="text-3">Active Learning Teacher</p>
                         </div>
                     </div>
                 </div>         
             </div>
         </section>
         <!--Section Testimonial-->
-        <section>
-            <div id="testimonial">
+        <section id="about">
+            <div>
                 <div>
                     <span>Testimonial</span>
-                    <h2>What's Parent Say About Us</h2>
+                    <h2 class="text-1">What's Parent</h2> <h2 class="text-2">Say About Us</h2>
                 </div>
-                <div>
-                    <div class="content-testi-1">
+                <div class="container-about">
+                    <div class="section-1">
                         <p>Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus blandit pretium sed non enim.</p>
                         <div>
-                            <img src="asset/images/avatar 1.png" alt="#">
-                            <div>
+                            <img src="asset/images/avatar.png" alt="#">
+                            <div class="content">
                                 <h5>Ronald Richards</h5>
-                                <p>Mom of 2 kids</p>
+                                <span>Mom of 2 kids</span>
                             </div>
                         </div>
                     </div>
-                    <div class="content-testi-2">
+                    <div class="section-2">
                         <p>Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus blandit pretium sed non enim.</p>
                         <div>
-                            <img src="asset/images/avatar 1.png" alt="#">
-                            <div>
+                            <img src="asset/images/avatar.png" alt="#">
+                            <div class="content">
                                 <h5>Wade Warren</h5>
-                                <p>Dad of 4 kids</p>
+                                <span>Dad of 4 kids</span>
                             </div>
                         </div>
                     </div>
-                    <div class="content-testi-3">
+                    <div class="section-3">
                         <p>Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus blandit pretium sed non enim.</p>
                         <div>
-                            <img src="asset/images/avatar 1.png" alt="#">
-                            <div>
+                            <img src="asset/images/avatar.png" alt="#">
+                            <div class="content">
                                 <h5>Arlane McCoy</h5>
-                                <p>Mom of 1 kids</p>
+                                <span>Mom of 1 kids</span>
                             </div>
                         </div>
                     </div>
@@ -335,21 +288,21 @@
             </div>       
         </section>
         <!--Section Contact-->
-        <section>
+        <section id="contact">
             <div>
                 <h2>Enroll Your Child Now! Call Us (302) 555-0107 or</h2>
                 <button type="button">Enroll Online</button>
             </div>
         </section>
         <!--Section blog-->
-        <section>
+        <section id="article">
             <div>
-                <div>
+                <div class="article-title">
                     <span>Blog</span>
-                    <h3>Our Latest Articles</h3>
+                    <h2 class="text-1">Our Latest</h2><h2 class="text-2">Articles</h2>
                 </div>
-                <div>
-                    <div>
+                <div class="container-article">
+                    <div class="content-1">
                         <article>
                             <div>
                                 <img src="asset/images/thumbnail.png" alt="#">
@@ -361,7 +314,7 @@
                             </div>
                         </article>
                     </div>
-                    <div>
+                    <div class="content-2">
                         <article>
                             <div>
                                 <img src="asset/images/thumbnail.png" alt="#">
@@ -373,7 +326,7 @@
                             </div>
                         </article>
                     </div>
-                    <div>
+                    <div class="content-3">
                         <article>
                             <div>
                                 <img src="asset/images/thumbnail.png" alt="#">
@@ -385,7 +338,7 @@
                             </div>
                         </article>
                     </div>
-                    <div>
+                    <div class="content-4">
                         <article>
                             <div>
                                 <img src="asset/images/thumbnail.png" alt="#">
@@ -397,7 +350,7 @@
                             </div>
                         </article>
                     </div>
-                     <div>
+                     <div class="content-5">
                         <article>
                             <div>
                                 <img src="asset/images/thumbnail.png" alt="#">
@@ -409,7 +362,7 @@
                             </div>
                         </article>
                     </div>
-                    <div>
+                    <div class="content-6">
                         <article>
                             <div>
                                 <img src="asset/images/thumbnail.png" alt="#">
@@ -421,7 +374,7 @@
                             </div>
                         </article>
                     </div>
-                    <div>
+                    <div class="content-7">
                         <article>
                             <div>
                                 <img src="asset/images/thumbnail.png" alt="#">
@@ -433,7 +386,7 @@
                             </div>
                         </article>
                     </div>
-                    <div>
+                    <div class="content-8">
                         <article>
                             <div>
                                 <img src="asset/images/thumbnail.png" alt="#">
@@ -446,7 +399,7 @@
                         </article>
                     </div>
                 </div>
-                    <button type="button">View More</button>
+                <button type="button">View More</button>
             </div>
         </section>
     </main>
