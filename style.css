@@ -1,225 +1,36 @@
-#header {
-    background-color: #6100C1;
-}
-.container .navbar ul li a {
-    color: #ffffff;
-    font-size: 18px
-}
-.container .navbar button{
-    color: #ffffff;
-    background-color: #6100C110;
-    font-size: 22px;
-}
-.hero span {
-    font-size: 18px;
-    color: #ffffff;
-    background-color: #6100C110;
-}
-.hero h1 {
-    font-size: 87px;
-    color: #ffffff;
-}
-.hero p {
-    color: #ffffff;
-    font-size: 20px;
-}
-.hero button {
-    background-color: #B2D93A;
-    color: #ffffff;
-}
-#offer .container h3{
-    font-size: 32px;
-    color: #222F5E;
-}
-#offer .container ul li a {
-    font-size: 24px;
-    color: #000000;
-}
-#benefits span  {
-    color: #6ED2EF;
-    background-color: #6ED2EF50; 
-}
-#benefits h2 {
-    font-size: 48px;
-    color: #6ED2EF;
-}
-#benefits .title-color {
-    color: #222F5E;
-    background-color: transparent !important;
-}
-#benefits p {
-    color: #878799;
-    font-size: 16px;
-}
-#benefits h4 {
-    font-size: 24px;
-    color: #222F5E;
-}
-#about span {
-    font-size: 18px;
-    color: #FF7D56;
-    background-color: #FF7D5630;
-}
-#about h2 {
-    font-size: 48px;
-    color: #222F5E;
-}
-#about .color-title {
-    color: #FF7D56;
-    font-size: 48px;
-    background-color: transparent !important;
-}
-#about button {
-    color: #ffffff;
-    background-color: #FF7D56;
-}
-#counter {
-    background-color: #222F5E;
-    color: #ffffff;
-}
-#knowledge span {
-    color: #6100C1; 
-    background-color: #6100C130;
-}
-#knowledge h2 {
-    font-size: 48px;
-    color: #222F5E;
-}
-#knowledge .color-title {
-    color: #6100C1;
-    background-color: transparent !important;
-}
-#knowledge p {
-    font-size: 16px;
-    color: #878799;
-}
-#knowledge button {
-    color: #ffffff;
-    background-color: #6100C1;
-}
-#member span {
-    font-size: 18px;
-    color: #6ED2EF;
-    background-color: #6ED2EF30;
-}
-#member h2 {
-    color: #222F5E;
-    font-size: 48px;
-}
-#member .container .color-title {
-    font-size: 48px;
-    color: #6ED2EF;
-    background-color: transparent !important;
-}
-#member ul li a {
-    color: #222F5E;
-}
-#member .card-member h4 {
-    font-size: 24px;
-    color: #222F5E;
-}
-#member .card-member p {
-    font-size: 16px;
-}
-#member .card-member .color-orange {
-    color: #FF7D56;
-}
-#member .card-member .color-green {
-    color: #B2D93A
-}
-#member .card-member .color-purple {
-    color: #6100C1;
-}
-#member .card-member .color-blue {
-    color: #6ED2EF;
-}
-#testimonial span {
-    color: #FF7D56;
-    background-color: #FF7D5630;
-    font-size: 18px;
-}
-#testimonial h2 {
-    color: #222F5E;
-    font-size: 48px;
-}
-#testimonial .color-title {
-    color: #FF7D56;
-    font-size: 48px;
-    background-color: transparent !important;
-}
-#testimonial p {
-    color: #ffffff;
-    font-size: 20px;
-}
-#testimonial h4 {
-    font-size: 24px;
-}
-#testimonial .container .content span {
-    font-size: 16px;
-    color: #878799;
-    background-color: transparent !important;
-}
-#contact button {
-    color: #ffffff;
-    background-color: #FF7D56;
-}
-#blog span {
-    color: #6100C1;
-    font-size: 18px;
-    background-color: #6100C130;
-}
-#blog h2 {
-    color: #222F5E;
-    font-size: 48px;
-}
-#blog .color-title {
-    font-size: 48px;
-    color: #6100C1;
-    background-color: transparent !important;
-}
-#blog .content span {
-    font-size: 14px;
-    color: #ffffff;
-}
-#blog .content h4 {
-    font-size: 24px;
-    color: #222F5E;
-}
-#blog .content p {
-    color: #878799;
-    font-size: 14px;
-}
-#blog .content .color-orange {
-    background-color: #FF7D56;
-}
-#blog .content .color-yellow {
-    background-color: #FDCF3F;
-}
-#blog .content .color-blueice {
-    background-color: #6ED2EF;
-}
-#blog .content .color-green {
-    background-color: #B2D93A;
-}
-#blog .content .color-purple {
-    background-color: #6100C1;
-}
-#blog .content .color-blue {
-    background-color: #4F94FB;
-}
-#blog .container button {
-    color: #6ED2EF;
-    background-color: #FFFFFF;
-}
-footer p {
-    font-size: 14px;
-    color: #878799;
-}
-footer h5 {
-    font-size: 22px;
-}
-footer ul li a {
-    font-size: 14px;
-    color: #878799;
-}
+.bg-purple {background-color: #6100C1;}
+.bg-black {background-color: #6100C110;}
+.bg-green{background-color: #B2D93A;}
+.bg-iceblue{background-color:#6ED2EF30;}
+.bg-dark-purple {background-color: #6100C150;}
+.bg-light-orange {background-color: #FF7D5630;}
+.bg-orange { background-color: #FF7D56;}
+.bg-white {background-color: #FDFDFF;}
+.bg-yellow {background-color: #FDCF3F;}
+.bg-light-blue{background-color: #6ED2EF;}
+.bg-light-blue-transparent{ background-color: #6ED2EF50;}
+.bg-blue { background-color: #4F94FB;}
+.bg-navy {background-color: #222F5E;}
+.text-white {color: #ffffff;}
+.text-navy { color: #222F5E;}
+.text-light-blue{ color: #6ED2EF;}
+.text-grey {color: #878799;}
+.text-orange {color: #FF7D56;}
+.text-purple {color: #6100C1;}
+.text-green {color: #B2D93A;}
+.text-light-grey { color: #7A87A8;}
+h1 {font-size: 87px;}
+h2 {font-size: 48px;}
+h3 {font-size: 32px;}
+h4 {font-size: 24px;}
+span {font-size: 18px;}
+p {font-size: 16px;}
+.font-extra-large{ font-size: 48px;}
+.font-large{font-size: 24px;}
+.font-link-medium{ font-size: 22px;}
+.font-medium{font-size: 20px;}
+.font-link-normal {font-size: 18px;}
+.font-normal{font-size: 16px;}
+.font-small{font-size: 14px;}
+
 
