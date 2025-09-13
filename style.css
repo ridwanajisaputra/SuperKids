@@ -33,4 +33,62 @@ p {font-size: 16px;}
 .font-normal{font-size: 16px;}
 .font-small{font-size: 14px;}
 
-
+.navbar .logo {
+    padding: 30px 1143px 30px 168px;
+    margin: 0px;
+}
+.navigation {
+    margin:  24px 125px 24px 481px;
+    padding: 8px;
+}
+.hero {
+    margin: 112px 120.13px 170px 120.13px;
+}
+.hero .content {
+    margin:41.86px 615.87px 41.86px;
+}
+.hero img {
+    margin: 112px 120.13px 170px 615.87px;
+}
+.offer {
+    margin: 40px 79px 93px 79px;
+}
+.offer .container ul li {
+    margin: 137px 79px 93px 79px;
+}
+.benefits {
+    margin: 142px 125px 142px 125px;
+}
+.about {
+    margin :75px 125px 75px 125px;
+}
+.about .content {
+    margin: 146px 146px 611px;
+}
+.knowledge .container .content {
+    margin: 220px 736px 220px 125px;
+}
+.knowledge .container img {
+    margin: 75px 125px 75px 736px;
+}
+.member .container .content { 
+    margin: 125px 578px 125px;
+}
+.member .container .card-member {
+    margin: 300px 125px 125px;
+}
+.testimonial .container .card-testimonial {
+    margin: 323px 123.5px 125px 123.5px;
+}
+.blog .container .content {
+    margin: 125px 1002px 125px;
+}
+.blog .container .article {
+    margin: 198px 125px 125px;
+}
+footer .container {
+    margin: 59px 59px;
+}
+footer .container .logo {
+    margin: 1045px 47px 125px
+}
