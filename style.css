@@ -32,63 +32,57 @@ p {font-size: 16px;}
 .font-link-normal {font-size: 18px;}
 .font-normal{font-size: 16px;}
 .font-small{font-size: 14px;}
-
-.navbar .logo {
-    padding: 30px 1143px 30px 168px;
-    margin: 0px;
+.header .container {
+    margin: 0 auto;
+    padding : 0 0 170px 0;
 }
-.navigation {
-    margin:  24px 125px 24px 481px;
-    padding: 8px;
+.header .hero .content button {
+    margin : 24px 0 0 0;
 }
-.hero {
-    margin: 112px 120.13px 170px 120.13px;
+.header .hero .content h1 {
+    margin: 16px 0 16px 0;
 }
-.hero .content {
-    margin:41.86px 615.87px 41.86px;
-}
-.hero img {
-    margin: 112px 120.13px 170px 615.87px;
+.header .hero img  {
+    margin: 0 0 0 32px;
 }
 .offer {
-    margin: 40px 79px 93px 79px;
+    padding: 40px 69px 40px 69px;
 }
-.offer .container ul li {
-    margin: 137px 79px 93px 79px;
+.offer h3 {
+    margin: 0 0 32px 0 ;
 }
-.benefits {
-    margin: 142px 125px 142px 125px;
+.offer img {
+   margin: 21px 0 0 0;
 }
-.about {
-    margin :75px 125px 75px 125px;
+.benefit .benefits-title .content {
+   margin: 16px 0  0;
 }
-.about .content {
-    margin: 146px 146px 611px;
+.benefit .benefits-title .content h2 {
+    margin: 0 64px 0 0;
 }
-.knowledge .container .content {
-    margin: 220px 736px 220px 125px;
+.benefit .content-benefits .card-benefits {
+    margin : 0 32px 0 0;
+    padding: 16px;
 }
-.knowledge .container img {
-    margin: 75px 125px 75px 736px;
+.benefit .content-benefits .card-benefits img {
+    margin: 0 32px 0 0;
 }
-.member .container .content { 
-    margin: 125px 578px 125px;
+.benefit .content-benefits .card-benefits h4 {
+    margin: 0 0 4px 0;
 }
-.member .container .card-member {
-    margin: 300px 125px 125px;
+.counter{
+    padding: 90px 64px 90px 64px;
+    margin : 0 110px 0 0;
 }
-.testimonial .container .card-testimonial {
-    margin: 323px 123.5px 125px 123.5px;
+.knowledge .container{
+    padding: 75px 125px 75px 125px;
 }
-.blog .container .content {
-    margin: 125px 1002px 125px;
+.knowledge .knowledge-title {
+    margin: 0 0 24px 0;
 }
-.blog .container .article {
-    margin: 198px 125px 125px;
+.knowledge .knowledge-title h2 {
+    margin: 16px 0 16px 0;
 }
-footer .container {
-    margin: 59px 59px;
-}
-footer .container .logo {
-    margin: 1045px 47px 125px
+.knowledge img{
+    margin: 0 0 0 32px;
 }
