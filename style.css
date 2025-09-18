@@ -83,13 +83,13 @@ p {font-size: 16px;}
     padding: 16px;
 }
 .benefits .benefits-content .card-benefits img {
-    margin: 0 32px 0 0;
+    margin: 0 22px 0 0;
 }
 .benefits .benefits-content .card-benefits h4 {
     margin: 0 0 4px 0;
 }
-.about{
-    margin: 75px 0 75px 0
+.about {
+    padding: 75px 0 75px 0;
 }
 .about .about-title {
     margin: 0 0 0 32px;
@@ -106,7 +106,141 @@ p {font-size: 16px;}
 .counter {
     padding: 90px 64px 90px 64px;
 }
-.counter ul li {
+.counter .container{
+    max-width: 1190px;
+    margin: 0 auto;
+}
+.counter ul{
     margin: 0 110px 0 0;
     padding: 90px 0 90px 0;
+}
+.counter ul li img {
+    margin: 0 0 24px 0;
+}
+.knowledge {
+    padding: 75px 0 75px 0;
+}
+.knowledge .knowledge-title {
+    margin: 0 32px 0 0;
+}
+.knowledge .knowledge-title .knowledge-content span {
+    margin: 0 0 16px 0;
+}
+.knowledge .knowledge-title .knowledge-content .knowledge-description h2 {
+    margin: 0 0 16px 0;
+}
+.knowledge .knowledge-title .knowledge-content .knowledge-description p {
+    margin: 0 0 24px 0;
+}
+.member .member-title {
+    margin-bottom: 82px;
+    text-align: center;
+}
+.member .member-title span {
+    margin: 0 0 16px 0;
+}
+.member .member-title h2 {
+    margin: 0 0 16px 0;
+}
+.member .member-title ul {
+    padding: 10px;
+    margin: 0 16px 0 0;
+}
+.member .member-title .blue-button {
+    padding: 15px 40px 15px 40px;
+}
+.member .member-title ul li{
+    padding: 16px 24px 16px 24px;
+}
+.member .member-content .card-border {
+    padding: 16px;
+}
+.member .member-content .card-member {
+    padding: 16px;
+}
+.member .member-content .card-member img {
+    margin: 0 22px 0 0;
+}
+.member .member-content .card-member h4 {
+    margin: 0 0 4px 0;
+}
+.testimonial {
+    padding: 125px 0 125px 0;
+}
+.testimonial .testimonial-title {
+    margin-bottom: 82px;
+    text-align: center;
+}
+.testimonial .testimonial-title span {
+    margin: 0 0 16px 0;
+}
+.testimonial .quote-testimonial {
+    margin: 0 34px 0 0;
+}
+.testimonial .quote-testimonial .card-testimonial p{
+    padding: 32px;
+    margin-bottom: 50px
+}
+.testimonial .quote-testimonial .card-testimonial .card-profile {
+    display: flex;
+    align-items: center;
+}
+.testimonial .quote-testimonial .card-testimonial .card-profile img {
+    margin: 0 16px 0 0;
+}
+.testimonial .quote-testimonial .card-testimonial .card-profile h4 {
+    margin: 0 0 4px 0;
+}
+.contact .container{
+    max-width: 1190px;
+    margin: 0 auto;
+}
+.contact{
+    padding: 90px 0 90px 0;
+    text-align: center;
+}
+.contact h2 {
+    margin: 0 0 32px 0;
+}
+.contact button {
+    padding: 16px 40px 16px 40px;
+}
+.blog .blog-title {
+    margin-bottom: 82px;
+    text-align: center;
+}
+.blog .blog-title span {
+    margin: 0 0 16px 0;
+}
+.blog .blog-content .blog-article {
+    margin: 0 32px 0 0;
+}
+.blog .blog-content .blog-article img {
+    margin: 0 0 16px 0;
+}
+.blog .blog-content .blog-article span {
+    margin: 0 0 16px 0;
+    padding: 4px 16px 4px 16px;
+}
+.blog .blog-content .blog-article h4 {
+    margin: 0 0 16px 0;
+}
+.blog button {
+    margin-top: 32px;
+    padding: 16px 40px 16px 40px;
+}
+.footer {
+    padding: 59px 0 59px 0;
+}
+footer .footer-about img {
+    margin: 0 0 24px 0;
+}
+footer .footer-content {
+    margin: 0 75px 0 0;
+}
+footer .footer-content .footer-menu h5 {
+    margin: 0 0 8px 0;
+}
+footer .footer-content .footer-menu ul li {
+    margin: 0 0 8px 0;
 }
