@@ -1,0 +1,241 @@
+.bg-purple {background-color: #6100C1;}
+.bg-black {background-color: #6100C110;}
+.bg-green{background-color: #B2D93A;}
+.bg-iceblue{background-color:#6ED2EF30;}
+.bg-dark-purple {background-color: #6100C150;}
+.bg-light-orange {background-color: #FF7D5630;}
+.bg-orange { background-color: #FF7D56;}
+.bg-white {background-color: #FDFDFF;}
+.bg-yellow {background-color: #FDCF3F;}
+.bg-light-blue{background-color: #6ED2EF;}
+.bg-light-blue-transparent{ background-color: #6ED2EF50;}
+.bg-blue { background-color: #4F94FB;}
+.bg-navy {background-color: #222F5E;}
+.text-white {color: #ffffff;}
+.text-navy { color: #222F5E;}
+.text-light-blue{ color: #6ED2EF;}
+.text-grey {color: #878799;}
+.text-orange {color: #FF7D56;}
+.text-purple {color: #6100C1;}
+.text-green {color: #B2D93A;}
+.text-light-grey { color: #7A87A8;}
+h1 {font-size: 87px;}
+h2 {font-size: 48px;}
+h3 {font-size: 32px;}
+h4 {font-size: 24px;}
+span {font-size: 18px;}
+p {font-size: 16px;}
+.font-extra-large{ font-size: 48px;}
+.font-large{font-size: 24px;}
+.font-link-medium{ font-size: 22px;}
+.font-medium{font-size: 20px;}
+.font-link-normal {font-size: 18px;}
+.font-normal{font-size: 16px;}
+.font-small{font-size: 14px;}
+.container { 
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header {
+    padding: 0 0 170px 0;
+}
+.header .hero .hero-title span {
+    margin: 0 0 16px 0;
+}
+.header .hero .hero-title .hero-description h1 {
+    margin: 0 0 16px 0;
+}
+.header .hero .hero-title .hero-description p {
+    margin: 0 0 24px 0;
+}
+.header .hero img {
+    margin: 0 0 0 32px;
+}
+.offer .offer-menu .offer-list {
+    margin-top: 32px;
+    margin-bottom: 21px;
+}
+.offer .offer-menu .offer-list li {
+    margin: 0 74px 0 0;
+}
+.offer .offer-menu .offer-list li img {
+    margin: 0 0 24px 0;
+}
+.benefits {
+    padding: 142px 0 142px 0;
+}
+.benefits .benefits-heading {
+    margin-bottom: 82px;
+}
+.benefits .benefits-heading .benefits-description {
+    margin: 16px 0 0 0;
+}
+.benefits .benefits-heading .benefits-description h2 {
+    margin: 0 64px 0 0;
+}
+.benefits .benefits-content .card-benefits {
+    margin: 0 32px 0 0;
+    padding: 16px;
+}
+.benefits .benefits-content .card-benefits img {
+    margin: 0 22px 0 0;
+}
+.benefits .benefits-content .card-benefits h4 {
+    margin: 0 0 4px 0;
+}
+.about {
+    padding: 75px 0 75px 0;
+}
+.about .about-title {
+    margin: 0 0 0 32px;
+}
+.about .about-title .about-content span {
+    margin: 0 0 16px 0;
+}
+.about .about-title .about-content .about-description h2{
+    margin: 0 0 16px 0;
+}
+.about .about-title .about-content .about-description p {
+    margin: 0 0 24px 0;
+}
+.counter {
+    padding: 90px 64px 90px 64px;
+}
+.counter .container{
+    max-width: 1190px;
+    margin: 0 auto;
+}
+.counter ul{
+    margin: 0 110px 0 0;
+    padding: 90px 0 90px 0;
+}
+.counter ul li img {
+    margin: 0 0 24px 0;
+}
+.knowledge {
+    padding: 75px 0 75px 0;
+}
+.knowledge .knowledge-heading {
+    margin: 0 32px 0 0;
+}
+.knowledge .knowledge-heading .knowledge-content span {
+    margin: 0 0 16px 0;
+}
+.knowledge .knowledge-heading .knowledge-content .knowledge-description h2 {
+    margin: 0 0 16px 0;
+}
+.knowledge .knowledge-heading .knowledge-content .knowledge-description p {
+    margin: 0 0 24px 0;
+}
+.member .member-heading {
+    margin-bottom: 82px;
+    text-align: center;
+}
+.member .member-heading span {
+    margin: 0 0 16px 0;
+}
+.member .member-heading h2 {
+    margin: 0 0 16px 0;
+}
+.member .member-heading ul {
+    padding: 10px;
+    margin: 0 16px 0 0;
+}
+.member .member-heading .blue-button {
+    padding: 15px 40px 15px 40px;
+}
+.member .member-heading ul li{
+    padding: 16px 24px 16px 24px;
+}
+.member .member-content .card-border {
+    padding: 16px;
+}
+.member .member-content .card-member {
+    padding: 16px;
+}
+.member .member-content .card-member img {
+    margin: 0 22px 0 0;
+}
+.member .member-content .card-member h4 {
+    margin: 0 0 4px 0;
+}
+.testimonial {
+    padding: 125px 0 125px 0;
+}
+.testimonial .testimonial-heading {
+    margin-bottom: 82px;
+    text-align: center;
+}
+.testimonial .testimonial-heading span {
+    margin: 0 0 16px 0;
+}
+.testimonial .quote-testimonial {
+    margin: 0 34px 0 0;
+}
+.testimonial .quote-testimonial .card-testimonial p{
+    padding: 32px;
+    margin-bottom: 50px
+}
+.testimonial .quote-testimonial .card-testimonial .card-profile {
+    display: flex;
+    align-items: center;
+}
+.testimonial .quote-testimonial .card-testimonial .card-profile img {
+    margin: 0 16px 0 0;
+}
+.testimonial .quote-testimonial .card-testimonial .card-profile h4 {
+    margin: 0 0 4px 0;
+}
+.contact .container{
+    max-width: 1190px;
+    margin: 0 auto;
+}
+.contact{
+    padding: 90px 0 90px 0;
+    text-align: center;
+}
+.contact h2 {
+    margin: 0 0 32px 0;
+}
+.contact button {
+    padding: 16px 40px 16px 40px;
+}
+.blog .blog-heading {
+    margin-bottom: 82px;
+    text-align: center;
+}
+.blog .blog-heading span {
+    margin: 0 0 16px 0;
+}
+.blog .blog-content .blog-article {
+    margin: 0 32px 0 0;
+}
+.blog .blog-content .blog-article img {
+    margin: 0 0 16px 0;
+}
+.blog .blog-content .blog-article span {
+    margin: 0 0 16px 0;
+    padding: 4px 16px 4px 16px;
+}
+.blog .blog-content .blog-article h4 {
+    margin: 0 0 16px 0;
+}
+.blog button {
+    margin-top: 32px;
+    padding: 16px 40px 16px 40px;
+}
+.footer {
+    padding: 59px 0 59px 0;
+}
+footer .footer-heading img {
+    margin: 0 0 24px 0;
+}
+footer .footer-content {
+    margin: 0 75px 0 0;
+}
+footer .footer-content .footer-menu h5 {
+    margin: 0 0 8px 0;
+}
+footer .footer-content .footer-menu ul li {
+    margin: 0 0 8px 0;
+}
