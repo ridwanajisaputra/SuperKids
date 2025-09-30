@@ -86,16 +86,16 @@ p {font-size: 16px;}
 .about {
     padding: 75px 0 75px 0;
 }
-.about .about-title {
+.about .about-heading {
     margin: 0 0 0 32px;
 }
-.about .about-title .about-content span {
+.about .about-heading .about-content span {
     margin: 0 0 16px 0;
 }
-.about .about-title .about-content .about-description h2{
+.about .about-heading .about-content .about-description h2{
     margin: 0 0 16px 0;
 }
-.about .about-title .about-content .about-description p {
+.about .about-heading .about-content .about-description p {
     margin: 0 0 24px 0;
 }
 .counter {
